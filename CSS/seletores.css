@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*seletores de elementos*/
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: green;
+}
+
+/*seletor de ID*/
+#sel{
+    color: rgba(0, 128, 255, 0.397);
+}
+
+.select-class{
+    color: blue;
+}
+
+
+p{
+    font-size: 18px;
+}
