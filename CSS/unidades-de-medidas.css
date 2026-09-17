@@ -1,0 +1,44 @@
+*{
+    color: white;
+    background-color: black;
+    padding: 35px;
+}
+
+
+
+
+h1{
+    text-align: center;
+}
+
+.caixa{
+    margin: auto;
+    background-color: rgb(13, 100, 97);
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    box-shadow: 4px 5px 8px  rgb(59, 202, 197);
+}
+
+.caixa2{
+    margin: auto;
+    background-color: rgb(106, 10, 133);
+    height:75%;
+    width: 75%;
+    border-radius: 500px;
+    box-shadow: 4px 5px 8px  rgb(59, 202, 197);
+}
+
+.caixa3{
+    margin: auto;
+    background-color: #5b14d5;
+    height:10em;
+    width: 10em;
+    border-radius: 500px;
+    box-shadow: -4px -5px 8px  rgb(6, 32, 33);
+}
+
+.caixa3:hover{
+    background-color:#7530ec ;
+    transform: translateY(-5px);
+}
