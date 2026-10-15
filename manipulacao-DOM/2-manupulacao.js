@@ -1,0 +1,1 @@
+let lista = ["joão", "maria", "pedrof"]
