@@ -26,9 +26,7 @@ db.connect((err) => {
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.send('A aplicação está rodando!');
-});
+app.use(express.static('public'));
 
 app.get('/usuarios', (req, res) => {
     const sql = 'SELECT * FROM usuarios';
